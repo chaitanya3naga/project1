@@ -1,0 +1,39 @@
+.hero{
+    height:100vh;
+    background: linear-gradient(180deg,#918f91,#e1ffea22 60%);
+    display:flex
+}
+.hero-left{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+    padding-left: 180px;
+    line-height: 1.1;
+}
+.hero-left h2{
+    color: #090909;
+    font-size: 66px;
+    font-weight: 600;
+}
+.hero-left p{
+    color: #171717;
+    font-size: 30px;
+    font-weight:500;
+    text-align: left;
+}
+.hero-latest-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:90px;
+    width:210px;
+    height:60px;
+    border-radius: 75px;
+    margin-top: 30px;
+    background: #777676;
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+}
